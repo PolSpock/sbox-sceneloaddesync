@@ -1,5 +1,5 @@
 {
-  "__guid": "9f832399-4887-46b0-8f21-2ee284f538e2",
+  "__guid": "24ee8c23-ea10-4c4d-9d93-f99d63a5b809",
   "GameObjects": [
     {
       "__guid": "4bd3a92c-bcd8-40a3-be6e-03370ceb329e",
@@ -46,21 +46,6 @@
           "LightColor": "0.91373,0.98039,1,1",
           "Shadows": true,
           "SkyColor": "0.05882,0.07451,0.08235,1"
-        }
-      ]
-    },
-    {
-      "__guid": "280c5881-0503-4e97-bf3d-19c08b0d7397",
-      "Flags": 0,
-      "Name": "NetworkSession",
-      "Position": "-46.49478,22.60883,30.20281",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkInterpolation": true,
-      "Components": [
-        {
-          "__type": "NetworkSession",
-          "__guid": "6939f8e5-987b-4d58-8ec6-e1afc11d0ec2"
         }
       ]
     },
@@ -138,9 +123,9 @@
       "IncludedBodies": ""
     }
   },
-  "Title": "minimal",
+  "Title": "game",
   "Description": "",
-  "LastSaved": "2024-05-15T20:07:32.5316914\u002B02:00",
+  "LastSaved": "2024-05-15T20:27:15.9365659\u002B02:00",
   "ResourceVersion": 1,
   "__version": 1,
   "__references": []

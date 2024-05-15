@@ -1,0 +1,55 @@
+{
+  "__guid": "043277ec-9638-43cf-a52a-92243e966b88",
+  "GameObjects": [
+    {
+      "__guid": "0ea12038-5d04-4f1f-b53f-f2fa32a9356f",
+      "Flags": 0,
+      "Name": "UI",
+      "Position": "149.995,149.995,-212.125",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ScreenPanel",
+          "__guid": "904bfeb2-24a6-4daa-90a6-5ef7c5a5886d",
+          "AutoScreenScale": true,
+          "Opacity": 1,
+          "Scale": 1,
+          "ZIndex": 100
+        },
+        {
+          "__type": "Sandbox.LobbyUiComponent",
+          "__guid": "136e3c2e-436d-40a6-b4df-346bc6458ed6"
+        }
+      ]
+    }
+  ],
+  "SceneProperties": {
+    "FixedUpdateFrequency": 50,
+    "MaxFixedUpdates": 5,
+    "NetworkFrequency": 30,
+    "NetworkInterpolation": true,
+    "ThreadedAnimation": true,
+    "TimeScale": 1,
+    "UseFixedUpdate": true,
+    "NavMesh": {
+      "Enabled": false,
+      "IncludeStaticBodies": true,
+      "IncludeKeyframedBodies": true,
+      "EditorAutoUpdate": true,
+      "AgentHeight": 64,
+      "AgentRadius": 16,
+      "AgentStepSize": 18,
+      "AgentMaxSlope": 40,
+      "ExcludedBodies": "",
+      "IncludedBodies": ""
+    }
+  },
+  "Title": "lobby",
+  "Description": "",
+  "LastSaved": "2024-05-15T20:20:57.6245806\u002B02:00",
+  "ResourceVersion": 1,
+  "__version": 1,
+  "__references": []
+}
