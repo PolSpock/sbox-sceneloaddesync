@@ -37,6 +37,8 @@ public sealed class NetworkTest : Component
 		ViewModelArms = goViewmodelArms.Components.GetOrCreate<ViewModelArms>();
 	}
 
+	// I dunno why, but you will increase the chance of geting an unsync viewmodel transform
+	// by creating a new gameobject and attach it a Component
 	public void MuzzleFlashEffect()
 	{
 		var goParticle = new GameObject();
