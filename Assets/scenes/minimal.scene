@@ -1,0 +1,147 @@
+{
+  "__guid": "9f832399-4887-46b0-8f21-2ee284f538e2",
+  "GameObjects": [
+    {
+      "__guid": "4bd3a92c-bcd8-40a3-be6e-03370ceb329e",
+      "Flags": 0,
+      "Name": "Plane",
+      "Scale": "20,20,1",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "Components": [
+        {
+          "__type": "Sandbox.PlaneCollider",
+          "__guid": "5104ff5e-2619-4212-b732-e2d049ca2a1d",
+          "Center": "0,0,0",
+          "IsTrigger": false,
+          "Scale": "50,50",
+          "Static": true
+        },
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "c87d317e-ad6a-4e27-99b3-7050ba3283bb",
+          "BodyGroups": 18446744073709551615,
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        }
+      ]
+    },
+    {
+      "__guid": "f7c1f8aa-7d6b-4c45-8ec5-66a3cc5f5ab6",
+      "Flags": 0,
+      "Name": "Light",
+      "Position": "-36.06165,5.405792,265.2931",
+      "Rotation": "-0.4426328,0.5479172,0.4239748,0.5693052",
+      "Tags": "light_directional,light",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "Components": [
+        {
+          "__type": "Sandbox.DirectionalLight",
+          "__guid": "8a6f9d4d-475d-4b05-96b9-cf8c4160c2a2",
+          "FogMode": "Enabled",
+          "FogStrength": 1,
+          "LightColor": "0.91373,0.98039,1,1",
+          "Shadows": true,
+          "SkyColor": "0.05882,0.07451,0.08235,1"
+        }
+      ]
+    },
+    {
+      "__guid": "280c5881-0503-4e97-bf3d-19c08b0d7397",
+      "Flags": 0,
+      "Name": "NetworkSession",
+      "Position": "-46.49478,22.60883,30.20281",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "Components": [
+        {
+          "__type": "NetworkSession",
+          "__guid": "6939f8e5-987b-4d58-8ec6-e1afc11d0ec2"
+        }
+      ]
+    },
+    {
+      "__guid": "c1339258-1fbd-4c22-b06b-94274fba6dae",
+      "Flags": 0,
+      "Name": "MainCamera",
+      "Position": "-46.49478,22.60883,30.20281",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "Components": [
+        {
+          "__type": "Sandbox.CameraComponent",
+          "__guid": "fab7bd78-8efd-4873-b7cc-86c1aabfe202",
+          "BackgroundColor": "0,0,0,0",
+          "ClearFlags": "All",
+          "FieldOfView": 100,
+          "IsMainCamera": true,
+          "Orthographic": false,
+          "OrthographicHeight": 1204,
+          "Priority": 1,
+          "RenderExcludeTags": "viewmodel",
+          "RenderTags": "",
+          "TargetEye": "None",
+          "Viewport": "0,0,1,1",
+          "ZFar": 10000,
+          "ZNear": 1
+        }
+      ]
+    },
+    {
+      "__guid": "a0bb9c6b-3244-4e60-8b49-be21580e59d6",
+      "Flags": 0,
+      "Name": "GameNetworkManager",
+      "Position": "-46.49478,22.60883,101.9824",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "Components": [
+        {
+          "__type": "Sandbox.GameNetworkManager",
+          "__guid": "60b0726a-49a6-4c8f-a3d6-53a8a0ad6ba6"
+        }
+      ]
+    },
+    {
+      "__guid": "3a552509-5084-43b8-98d1-b8c4bf3c9577",
+      "Flags": 0,
+      "Name": "AnotherNetworkedComponent",
+      "Position": "-440.06,129.3616,111.647",
+      "Enabled": true,
+      "NetworkMode": 1,
+      "NetworkInterpolation": true
+    }
+  ],
+  "SceneProperties": {
+    "FixedUpdateFrequency": 128,
+    "MaxFixedUpdates": 5,
+    "NetworkFrequency": 128,
+    "NetworkInterpolation": true,
+    "ThreadedAnimation": true,
+    "TimeScale": 1,
+    "UseFixedUpdate": true,
+    "NavMesh": {
+      "Enabled": false,
+      "IncludeStaticBodies": true,
+      "IncludeKeyframedBodies": true,
+      "EditorAutoUpdate": true,
+      "AgentHeight": 64,
+      "AgentRadius": 16,
+      "AgentStepSize": 18,
+      "AgentMaxSlope": 40,
+      "ExcludedBodies": "",
+      "IncludedBodies": ""
+    }
+  },
+  "Title": "minimal",
+  "Description": "",
+  "LastSaved": "2024-05-15T20:07:32.5316914\u002B02:00",
+  "ResourceVersion": 1,
+  "__version": 1,
+  "__references": []
+}
