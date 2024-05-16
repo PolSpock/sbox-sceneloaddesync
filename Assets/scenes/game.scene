@@ -80,15 +80,15 @@
     {
       "__guid": "a0bb9c6b-3244-4e60-8b49-be21580e59d6",
       "Flags": 0,
-      "Name": "GameNetworkManager",
+      "Name": "PlayerSpawnerManager",
       "Position": "-46.49478,22.60883,101.9824",
       "Enabled": true,
       "NetworkMode": 2,
       "NetworkInterpolation": true,
       "Components": [
         {
-          "__type": "Sandbox.GameNetworkManager",
-          "__guid": "60b0726a-49a6-4c8f-a3d6-53a8a0ad6ba6"
+          "__type": "Sandbox.PlayerSpawnerManager",
+          "__guid": "8e938b1a-6c69-4d08-9a12-9f2ee28236ff"
         }
       ]
     },
@@ -125,7 +125,7 @@
   },
   "Title": "game",
   "Description": "",
-  "LastSaved": "2024-05-15T20:27:15.9365659\u002B02:00",
+  "LastSaved": "2024-05-16T20:54:39.9436355\u002B02:00",
   "ResourceVersion": 1,
   "__version": 1,
   "__references": []

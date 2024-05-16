@@ -1,13 +1,11 @@
 namespace Sandbox;
 
-public sealed class GameNetworkManager : Component, Component.INetworkListener
+public sealed class PlayerSpawnerManager : Component, Component.INetworkListener
 {
-	[Property] public GameObject PlayerPrefab { get; set; }
-	[Property] public GameObject SpawnPoint { get; set; }
-
-	public void OnActive( Connection channel )
+	static public void SpawnThePlayer()
 	{
-		Log.Info( "OnActive" );
+		Log.Info( "SpawnThePlayer" );
+
 		var player = new GameObject();
 		player.Parent = Game.ActiveScene;
 		player.Components.Create<NetworkTest>();
@@ -33,7 +31,6 @@ public sealed class GameNetworkManager : Component, Component.INetworkListener
 		playerController.Body = body;
 		playerController.Eye = eyes;
 
-		player.NetworkSpawn( channel );
-
+		player.NetworkSpawn();
 	}
 }

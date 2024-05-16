@@ -13,7 +13,7 @@ namespace Sandbox
 			Panel.Style.PointerEvents = PointerEvents.All;
 
 			var button = new Button();
-			button.Text = "CLICK ME TO LOAD THE SCENE & START A NETWORK LOBBY";
+			button.Text = "CLICK ME TO LOAD THE SCENE";
 			button.AddEventListener( "onclick", e => LoadScene() );
 			button.Style.Width = Length.Percent( 100f );
 			button.Style.FontColor = Color.White;
@@ -34,7 +34,7 @@ namespace Sandbox
 
 				Game.ActiveScene.Load( sceneGamemode );
 
-				GameNetworkSystem.CreateLobby();
+				PlayerSpawnerManager.SpawnThePlayer();
 			}
 
 			if ( Scene is not null )
@@ -44,6 +44,8 @@ namespace Sandbox
 				Log.Info( Scene.Id );
 			}
 		}
+
+
 
 	}
 }
