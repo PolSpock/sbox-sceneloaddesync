@@ -91,15 +91,6 @@
           "__guid": "8e938b1a-6c69-4d08-9a12-9f2ee28236ff"
         }
       ]
-    },
-    {
-      "__guid": "3a552509-5084-43b8-98d1-b8c4bf3c9577",
-      "Flags": 0,
-      "Name": "AnotherNetworkedComponent",
-      "Position": "-440.06,129.3616,111.647",
-      "Enabled": true,
-      "NetworkMode": 1,
-      "NetworkInterpolation": true
     }
   ],
   "SceneProperties": {
@@ -125,7 +116,7 @@
   },
   "Title": "game",
   "Description": "",
-  "LastSaved": "2024-05-16T20:54:39.9436355\u002B02:00",
+  "LastSaved": "2024-05-16T21:01:55.1335451\u002B02:00",
   "ResourceVersion": 1,
   "__version": 1,
   "__references": []

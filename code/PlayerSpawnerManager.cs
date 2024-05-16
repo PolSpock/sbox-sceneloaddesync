@@ -30,7 +30,5 @@ public sealed class PlayerSpawnerManager : Component, Component.INetworkListener
 		var playerController = player.Components.Create<PlayerController>();
 		playerController.Body = body;
 		playerController.Eye = eyes;
-
-		player.NetworkSpawn();
 	}
 }
