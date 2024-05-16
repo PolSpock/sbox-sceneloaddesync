@@ -2,9 +2,9 @@ namespace Sandbox;
 
 public sealed class PlayerSpawnerManager : Component, Component.INetworkListener
 {
-	static public void SpawnThePlayer()
+	protected override void OnStart()
 	{
-		Log.Info( "SpawnThePlayer" );
+		Log.Info( "PlayerSpawnerManager" );
 
 		var player = new GameObject();
 		player.Parent = Game.ActiveScene;

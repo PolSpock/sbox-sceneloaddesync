@@ -34,7 +34,6 @@ namespace Sandbox
 
 				Game.ActiveScene.Load( sceneGamemode );
 
-				PlayerSpawnerManager.SpawnThePlayer();
 			}
 
 			if ( Scene is not null )
