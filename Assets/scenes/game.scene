@@ -6,6 +6,7 @@
       "Flags": 0,
       "Name": "Plane",
       "Scale": "20,20,1",
+      "Tags": "solid",
       "Enabled": true,
       "NetworkMode": 2,
       "NetworkInterpolation": true,
@@ -116,8 +117,8 @@
   },
   "Title": "game",
   "Description": "",
-  "LastSaved": "2024-05-16T21:01:55.1335451\u002B02:00",
+  "LastSaved": "2024-05-22T10:37:55.2381113\u002B02:00",
   "ResourceVersion": 1,
-  "__version": 1,
-  "__references": []
+  "__references": [],
+  "__version": 1
 }
