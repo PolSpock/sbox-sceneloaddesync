@@ -14,7 +14,8 @@
 			base.OnAwake();
 
 			SkinnedModelRenderer ??= GameObject.Components.GetOrCreate<SkinnedModelRenderer>();
-			SkinnedModelRenderer.Model = Model.Load( "models/weapons/sbox_smg_mp5/v_mp5.vmdl" );
+			//SkinnedModelRenderer.Model = Model.Load( "models/weapons/sbox_smg_mp5/v_mp5.vmdl" );
+			SkinnedModelRenderer.Model = Cloud.Model( "facepunch/v_mp5" );
 
 			GameObject.Tags.Add( "viewmodel" );
 		}
